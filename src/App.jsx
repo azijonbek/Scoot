@@ -1,7 +1,6 @@
 import { About, Careers, Home, Location } from "./pages/index";
 import { Navbar } from "./components/layout/navbar/index";
 import { Footer } from "./components/layout/footer/index";
-import "./App.css";
 import { Route, Switch } from "react-router-dom";
 
 function App() {
