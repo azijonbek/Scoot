@@ -1,5 +1,4 @@
 import React from "react";
-import { DfP } from "../paragraphs/p/DfP";
 import { H4 } from "../headings/h4/H4";
 
 export const MobButton = ({ children }) => {
