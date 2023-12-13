@@ -3,7 +3,7 @@ import mapEarth from "/mock-images/location/map.png";
 import { Listed } from "../../components/pages/location-components/listed/Listed";
 import { FooterTop } from "../../components/pages/location-components/footerTop/FooterTop";
 import mapMob from "/mock-images/location/mapMob.png";
-import { MobButton } from "../../components/common/mobButton/mobButton";
+import MobButton from "../../components/common/mobButton/mobButton";
 const Location = () => {
   return (
     <>
