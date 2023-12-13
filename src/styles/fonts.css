@@ -1,8 +1,8 @@
 @font-face {
   font-family: lexend-deca;
-  src: url(/public/fonts/LexendDeca-Light.ttf);
+  src: url(/fonts/LexendDeca-Light.ttf);
 }
 @font-face {
   font-family: space-mono;
-  src: url(/public//fonts/SpaceMono-Bold.ttf);
+  src: url(/fonts/SpaceMono-Bold.ttf);
 }

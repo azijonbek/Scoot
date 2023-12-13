@@ -4,10 +4,10 @@ import { AdvCard } from "./advCard/AdvCard";
 export const Advantages = () => {
   return (
     <>
-      <div className='flex container gap-[30px] py-[80px]'>
+      <div className='max-xl:w-[574px] max-xl:block max-tablet:block max-tablet:text-center max-tablet:mx-auto max-[2400px]:flex  container gap-[30px] py-[80px] '>
         <AdvCard
           img={"advTell"}
-          h3={"salom"}
+          h3={"Locate with app"}
           p={
             "Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away. "
           }

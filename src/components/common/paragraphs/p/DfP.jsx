@@ -5,7 +5,7 @@ export const DfP = ({ children, color = false, style }) => {
     <p
       className={`${
         !color ? "text-slate-600" : "text-white"
-      } text-[15px] font-normal font-lexendDeca leading-[25px] ${style}`}
+      } text-[15px] font-normal font-lexendDeca leading-[25px] max-tablet:py-[24px] ${style}`}
     >
       {children}
     </p>

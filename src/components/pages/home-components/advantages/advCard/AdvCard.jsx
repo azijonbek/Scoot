@@ -1,14 +1,17 @@
 import React from "react";
-import advTel from "/public/icons/advTel.svg";
-import advScoot from "/public/icons/advScoot.svg";
-import advScootByMan from "/public/icons/advScootByMan.svg";
+import advTel from "/icons/advTel.svg";
+import advScoot from "/icons/advScoot.svg";
+import advScootByMan from "/icons/advScootByMan.svg";
 import { H4 } from "/src/components/common/headings/h4/H4";
 import { DfP } from "../../../../common/paragraphs/p";
 
-export const AdvCard = ({ img, h3, p }) => {
+export const AdvCard = ({ img, h3, p, style }) => {
   return (
-    <div className='w-[350px]'>
+    <div
+      className={` mix-xl:w-[503px] smPadding  max-tablet:block max-xl:flex  max-xl:mx-auto max-xl:gap-[79px ] max-xl:items-start${style}`}
+    >
       <img
+        className=' max-tablet:mx-auto'
         src={
           img === "advTell"
             ? advTel
@@ -18,9 +21,11 @@ export const AdvCard = ({ img, h3, p }) => {
         }
         alt={img}
         loading='lazy'
-      />
-      <H4>{h3}</H4>
-      <DfP>{p}</DfP>
+      />{" "}
+      <div className='min-xl:pl-[79px] max-tablet:p-0 max-xl:pl-[79px]'>
+        <H4 style='py-[24px]'>{h3}</H4>
+        <DfP>{p}</DfP>
+      </div>
     </div>
   );
 };
